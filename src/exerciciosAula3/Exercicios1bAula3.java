@@ -8,7 +8,7 @@ public class Exercicios1bAula3 {
         int i,contadorpar = 0;
         int contadorimpar = 0;
 
-        for( i = 1; i <= 10; i++); {
+        for( i = 1; i >= 10; i++); {
         System.out.print("Digite o "+ i +"° número: ");
         int numero = ler.nextInt();
         
