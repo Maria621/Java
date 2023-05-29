@@ -12,7 +12,7 @@ public class Exercicios2b {
 		  // Leitura das notas
 		
 	            for (int i = 0; i < 10; i++) {
-                System.out.println("Digite as notas do participante " + (i + 1) + ":");
+                System.out.println("Digite as notas dos alunos " + (i + 1) + ":");
 		        for (int j = 0; j < 4; j++) {
 		        System.out.print("Nota " + (j + 1) + ": ");
 		        notas[i][j] = leia.nextDouble(); } }
@@ -27,9 +27,9 @@ public class Exercicios2b {
 
          // Exibição das médias
 		        
-		        System.out.println("\nMédias dos participantes:");
+		        System.out.println("\nMédias dos alunos:");
 		        for (int i = 0; i < 10; i++) {
-		        System.out.printf("Participante %d: %.1f\n", (i + 1), medias[i]);
+		        System.out.printf("Alunos %d: %.1f\n", (i + 1), medias[i]);
 	}
   }
 }
