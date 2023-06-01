@@ -1,4 +1,4 @@
-package exerciciosAula6;
+npackage exerciciosAula6;
 
 import java.util.Stack;
 import java.util.Scanner;
@@ -23,7 +23,7 @@ public class Exercicio2 {
                   System.out.println("\nO Livro foi Adicionado!");
               } else if (num == 2) {
                   System.out.println("nomes na pilha: \n" + pilha);
-              } else if (num == 3) {
+              } else if (num == 3) {if (!pilha.isEmpty()) {
                   System.out.println(pilha.pop());
                   System.out.println("\n O Livro foi retirado !!\n");
               }
@@ -36,3 +36,4 @@ public class Exercicio2 {
           System.out.println("Programa finalizado!!");
       }
   }
+}
