@@ -1,4 +1,4 @@
-npackage exerciciosAula6;
+package exerciciosAula6;
 
 import java.util.Stack;
 import java.util.Scanner;
